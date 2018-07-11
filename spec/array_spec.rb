@@ -6,7 +6,7 @@ rainbow_colors = [
   "yellow",
   "default",
   "light_cyan",
-]
+end
 
 converted_rainbow = rainbow_colors.map {|color| color.to_sym}
 converted_rainbow.each { |c| 2.times { 45.times {print "\u2588".colorize(c)}; puts "" } }
